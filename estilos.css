@@ -1,0 +1,513 @@
+body{
+    width: 70%;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #717e96;
+}
+
+/*Menu*/
+
+.navbar{
+    width:100%;
+    position:fixed;
+    z-index: 100;
+    padding-top: 0%;
+}
+
+.menucontainer{
+    width: 100%;
+    position:static;
+    display: flex;
+    justify-content: flex-end;  
+    align-items:baseline;
+    background-color: rgb(255,255,255, 0.95);
+    margin-top: 0px;
+    
+}
+
+.menulogo{
+    width: 30%;
+}
+.logo{
+    color: #2c4cca;
+    font-weight: bold;
+}
+
+.itemscontainer{
+    width: 70%; 
+    align-items: center;   
+}
+
+.navbar-brand{
+    padding-left: 10%;
+}
+
+.menuitem{
+    padding-right: 40px;
+    font-weight: bold;
+    font-size:medium;
+}
+
+.menuboton{
+    width: 120px;
+    padding: 6px;
+    background-color:#2c4cca;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0px 3px 15px 0px rgba(8, 8, 255, 0.2);
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 30px;
+}
+
+
+/*seccion 1*/
+.seccion1{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.infosect1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.fotosect1{
+    width: 50%;
+
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+.foto1{
+    display: block;
+    max-width: none !important;
+    margin-left: -40%;
+}
+
+.info1 > h2{
+    width: 100%;
+    font-weight: bold;
+    font-size: 40px;
+    color: #1f3e72;
+    margin-bottom: -20px;
+}
+
+
+.info1{
+    width: 100%;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.botonamarillo1{
+    width: 50%;
+    text-align: start;
+    height: 50px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: baseline;
+}
+
+.botonazul1{
+    height: 50px; 
+    display: flex;
+    justify-content:flex-start;
+    align-items: baseline;
+}
+
+
+/*banner marcas*/
+.bannermarcas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.marca{
+   padding-top: 50px;
+   padding-bottom: 100px;
+}
+.marca > img{
+    width: 150px;
+    margin-left: 45px;
+    margin-right: 45px;
+    filter: grayscale(100%);
+    opacity: 30%;
+}
+
+/*cuadro flotente seccion 1*/
+.cuadroflotante{
+    width: 750px;
+    position: absolute;
+    z-index: 101;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+    margin-top: 500px;
+    margin-left: 300px;
+    background-color: rgb(255,255,255, 0.95);
+    box-shadow: 0px 5px 20px 0px rgba(8, 8, 255, 0.2);
+    border-radius: 5px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.flotanteitem{
+    width: 25%;
+    padding-left: 18px;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start; 
+}
+.flotanteitem > p{
+    color: #758299;
+    font-size: medium;
+}
+strong{
+    color: #1f3e72;
+}
+
+
+/*seccion 2*/
+.section2{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.infosect2{
+    width: 100%;
+}
+.infosect2 > h2{
+    font-weight: bold;
+    font-size: 30px;
+    color: #1f3e72;
+}
+
+.cuadroscontainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.cuadrosect2{
+    width: 20%;
+    border-color: #f0f0f9;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 3px 0px rgba(8, 8, 255, 0.2);
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.cuadrosect2 > h3{
+    color: #1f3e72;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 15px;
+    
+}
+
+.cuadrosect2 > i {
+    height: 40px;
+    font-size: x-large;
+}
+
+
+
+/*seccion 3*/
+.seccion3{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.infosect3{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 50px;
+}
+
+.fotosect3{
+    width: 50%;
+
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+.foto3{
+    height: 600px;
+    display: block;
+    max-width: none !important;
+    margin-left: -40%;
+}
+
+.info3 > h2{
+    width: 100%;
+    font-weight: bold;
+    font-size: 35px;
+    color: #1f3e72;
+    margin-top: -45px;
+}
+.info3{
+    width: 100%;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cuadroscontainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.cuadrosect3{
+    width: 80%;
+    border-color: #f0f0f9;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 3px 0px rgba(8, 8, 255, 0.2);
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.cuadrosect3 > h3{
+    color: #1f3e72;
+    font-weight: bold;
+    font-size: medium;
+    padding-left: 10px;
+}
+.cuadrosect3 > p{
+    font-size: small;
+    padding-left: 7px;
+}
+#cuadroresaltado{
+    box-shadow: 5px 5px 15px 0px rgba(8, 8, 255, 0.2);
+}
+#cuadroresaltado > p{
+    margin-left: 35px;
+}
+
+
+
+/*seccion 4*/
+.seccion4{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.infosect4{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 50px;
+}
+
+.fotosect4{
+    width: 50%;
+
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+.foto4{
+    height: 500px;
+    display: block;
+    max-width: none !important;
+    margin-left: -30%;
+}
+
+.info4 > h2{
+    width: 100%;
+    font-weight: bold;
+    font-size: 35px;
+    color: #1f3e72;
+    margin-top: -45px;
+}
+.info4{
+    width: 100%;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cuadroscontainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.cuadrosect4{
+    width: 35%;
+    border-color: #f0f0f9;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 3px 0px rgba(8, 8, 255, 0.2);
+    margin: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.cuadrosect4 > h3{
+    color: #1f3e72;
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 2px;
+    margin-right: 10px;
+}
+.cuadrosect4 > p{
+    margin-left: 50px;
+    font-size: small;
+    margin-top: -20px;
+}
+
+.cuadrosect4 > button{
+    margin-left: auto;
+    margin-right: auto;
+
+    border: none;
+    background-color: #f1f5ff;
+    border-radius: 5px;
+    color: #2c4cca;
+    width: 140px;
+    padding: 8px;
+}
+#botonresaltado{
+    background-color:#2c4cca;
+    box-shadow: 0px 3px 15px 0px rgba(8, 8, 255, 0.2);
+    color: white;
+}
+
+.cuadrosect4 > i {
+    font-size: x-large;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+i{
+   background-color: #e9f1fe;
+   padding-top: 3px;
+   padding-left: 5px;
+   padding-bottom: 3px;
+   padding-right: 5px;
+   border-radius: 5px;
+   margin-right: 8px;
+}
+.ichico{
+    height: 30px;
+}
+.igrande{
+    font-size: 30px
+}
+
+.iazul {
+    color: #2e4ecc;
+    font-size: 15px;
+}
+.iamarillo{
+    color: #ffd012;
+    background-color: #fff8df;
+}
+
+
+
+
+/*pie de pagina*/
+.piepagina{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    background-color: #eef3ff;
+    padding: 35px;
+    padding-bottom: 10px;
+}
+.pie1 > h3{
+    color: #2e4ecc;
+    font-weight: bold;
+    font-size: larger;
+}
+.pie1 > p{
+    font-size: small;
+    font-weight: bold;
+}
+
+.pie1{
+    width: 50%;
+    padding-left: 30px;
+}
+
+.pie2{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+.listacontainer{
+    width: 30%;
+}
+.listacontainer > h4{
+    color: #1f3e72;
+    font-size: medium;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+    margin-left: -30px;
+}
+li{
+    font-size: small;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.pie3{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+}
+
+span{
+    font-weight: bold;
+}
+
+.derechosautor{
+    padding-left: 30px;
+}
+.terms{
+    padding-right: 100px;
+}
